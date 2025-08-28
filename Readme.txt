@@ -8,3 +8,8 @@ modpoll -m tcp -a 1 -r 1 -t 4 -p 50200 127.0.0.1
 Write a Single Coil
 writes ON (1) into coil 1
 modpoll -m tcp -a 1 -r 1 -t 0 -p 50200 127.0.0.1
+
+Ref 
+https://github.com/digitalpetri/modbus/tree/v1.2.0
+https://www.modbusdriver.com/modpoll.html
+
